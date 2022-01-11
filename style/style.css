@@ -5,6 +5,11 @@ html {
 body {
   margin: 0;
   font-family: "Work Sans", sans-serif;
+  background: url("img/interstellar.jpg") no-repeat center center fixed;
+                /*兼容浏览器版本*/
+                -webkit-background-size: cover;
+                -o-background-size: cover;                
+                background-size: cover;
 }
 
 .container {
